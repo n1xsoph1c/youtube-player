@@ -17,9 +17,10 @@ To install on **Arch Based Distros**:
 `$ sudo pacman -S youtube-dl`
 
 To install on **REDHAT Based Distros**:
-`$ sudo dnf install snapd`
-`$ sudo ln -s /var/lib/snapd/snap /snap`
-`$ sudo snap install youtube-dl`
+```$ sudo dnf install snapd
+$ sudo ln -s /var/lib/snapd/snap /snap
+$ sudo snap install youtube-dl
+```
 
 ## How to use
 Using `youtube-player` is easy. 
