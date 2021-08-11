@@ -28,7 +28,7 @@ $ sudo snap install youtube-dl
 ```
 
 ## How to use
-Using `youtube-player` is easy. 
+Using **youtube-player** is easy. 
 
 
 ### Use from the directory:
@@ -59,14 +59,14 @@ Then cd into the directory:
 $ cd youtube-player
 ```
 
-Then make `player.sh` executable:
+Then make **player.sh** executable:
 ```
 $ chmod +x player.sh
 ```
 
-Then move `player.sh` to `/usr/bin/`:
+Then move **player.sh** to **/usr/bin/**:
 ```
 $ sudo cp player.sh /usr/bin/player
 ```
 
-And simply run `player` from your terminal.
+And simply run **player** from your terminal.
