@@ -17,7 +17,8 @@ To install on **Arch Based Distros**:
 `$ sudo pacman -S youtube-dl`
 
 To install on **REDHAT Based Distros**:
-```$ sudo dnf install snapd
+```
+$ sudo dnf install snapd
 $ sudo ln -s /var/lib/snapd/snap /snap
 $ sudo snap install youtube-dl
 ```
