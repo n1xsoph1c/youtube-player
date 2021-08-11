@@ -5,3 +5,6 @@ A terminal based youtube player
 - mpv
 - youtube-dl
 
+[Install]{https://mpv.io/installation/} Mpv from here
+
+
