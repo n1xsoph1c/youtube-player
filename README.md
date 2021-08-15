@@ -1,6 +1,7 @@
 # youtube-player
 A terminal based youtube player
 
+
 ## Dependencies
 - mpv
 - youtube-dl
@@ -27,9 +28,8 @@ $ sudo ln -s /var/lib/snapd/snap /snap
 $ sudo snap install youtube-dl
 ```
 
-## How to use
+## How to use - LINUX
 Using **youtube-player** is easy. 
-
 
 ### Use from the directory:
 First clone the repository:
@@ -70,3 +70,27 @@ $ sudo cp player.sh /usr/bin/player
 ```
 
 And simply run **player** from your terminal.
+
+
+
+
+## How to use - WINDOWS
+NOTE: I am using VLC on windows. For some reason, VLC give can't play MRL error for some videos. 
+I do not know how to fix it. But Most of the videos works!
+
+
+First install **youtube-dl**
+```
+pip install youtube-dl
+```
+
+Then Add **VLC** to **PATH**
+Then to run as search mode:
+```
+python player.py
+```
+
+Or to run as nomral player mode:
+```
+python player.py "Search Query"
+```
