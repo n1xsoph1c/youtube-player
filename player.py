@@ -52,7 +52,7 @@ def main():
     if sys.argv[1]:
         id = get_TnId(str(sys.argv[1]))
         print("Now playing: ", id[0])
-        os.system(f"vlc http://www.youtube.com/watch?v={id[1]}")
+        os.system(f"mpv http://www.youtube.com/watch?v={id[1]}")
 
     else:
         loop = True
