@@ -42,7 +42,7 @@ def menu():
         info(f"NOW PLAYING: {titles[opt]}")
         print("="*10)
 
-        os.system(f"vlc http://www.youtube.com/watch?v={id[opt]}")
+        os.system(f"mpv chttp://www.youtube.com/watch?v={id[opt]}")
     else:
         info("Wrong Option...")
         menu()
